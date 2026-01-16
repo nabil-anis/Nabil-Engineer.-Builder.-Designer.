@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { WEBSITES } from '../constants';
@@ -204,15 +203,6 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
                     onClick={() => setIsActive(true)}
                     className="absolute inset-0 z-20 flex flex-col items-center justify-center cursor-pointer group/overlay transition-all duration-700 bg-black/[0.02] dark:bg-white/[0.01]"
                   >
-                    {/* Website Thumbnail Placeholder */}
-                    <div className="absolute inset-0 z-10 opacity-40 grayscale group-hover/overlay:grayscale-0 group-hover/overlay:opacity-60 group-hover/overlay:scale-105 transition-all duration-1000">
-                       <img 
-                        src={site.image || `https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop`} 
-                        alt={site.name} 
-                        className="w-full h-full object-cover"
-                       />
-                    </div>
-                    
                     <div className="relative z-20 text-center px-6 md:px-12 space-y-6 md:space-y-8 backdrop-blur-sm p-12 rounded-full border border-white/5 bg-white/5">
                        <motion.div 
                         whileHover={{ scale: 1.1 }}
