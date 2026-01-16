@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { WEBSITES } from '../constants';
@@ -97,7 +96,6 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
       className="group"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
-        {/* Left Column: Context */}
         <div className="lg:col-span-4 space-y-10 order-2 lg:order-1">
           <div className="space-y-6">
             <div className="flex items-center gap-3">
@@ -155,14 +153,11 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
           </div>
         </div>
 
-        {/* Right Column: Interactive Browser */}
         <div className="lg:col-span-8 order-1 lg:order-2 flex justify-center w-full overflow-hidden">
           <div 
             className={`relative w-full transition-all duration-700 ease-[0.22,1,0.36,1] ${viewport === 'mobile' ? 'max-w-[320px] md:max-w-[360px]' : 'max-w-none'}`}
           >
             <div className="relative rounded-[2.5rem] bg-white dark:bg-zinc-950 border border-black/[0.12] dark:border-white/[0.12] overflow-hidden shadow-2xl shadow-black/[0.05] dark:shadow-apple-blue/10 transform-gpu transition-all duration-500">
-              
-              {/* Enhanced MacOS Header */}
               <div className="h-12 bg-white/90 dark:bg-black/90 backdrop-blur-xl border-b border-black/[0.08] dark:border-white/[0.08] flex items-center px-4 md:px-6 gap-2 md:gap-6 z-50 relative">
                 <div className="flex gap-1.5 md:gap-2 min-w-[30px] md:min-w-[50px]">
                   <button onClick={resetInstance} className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-[#ff5f56] hover:brightness-75 transition-all" />
@@ -170,7 +165,6 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
                   <div className="w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-[#27c93f] opacity-40" />
                 </div>
                 
-                {/* Viewport Toggles */}
                 <div className="flex bg-black/[0.05] dark:bg-white/[0.05] p-1 rounded-lg border border-black/[0.05] dark:border-white/[0.05]">
                   <button 
                     onClick={() => setViewport('desktop')}
@@ -191,18 +185,14 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
                    <span className="text-[7px] md:text-[9px] font-bold text-gray-400 truncate uppercase tracking-widest">{site.url.replace('https://', '')}</span>
                 </div>
                 
-                {/* Simplified Header Status Indicator */}
                 <div className="flex items-center gap-2">
                    <div className={`w-1.5 h-1.5 md:w-2 md:h-2 rounded-full ${isActive ? 'bg-green-500' : 'bg-apple-blue'} animate-pulse shrink-0`} />
                 </div>
               </div>
 
-              {/* Main Display Area - Fixed Aspect Ratios (Modern Mobile Height) */}
               <div className={`relative bg-apple-gray-50 dark:bg-zinc-950 overflow-hidden transition-all duration-700 ${viewport === 'mobile' ? 'aspect-[9/19]' : 'aspect-[16/10]'}`}>
-                {/* Blueprint Background */}
                 <div className="absolute inset-0 z-0 opacity-[0.05] dark:opacity-[0.1]" style={{ backgroundImage: 'linear-gradient(#0066cc 1px, transparent 1px), linear-gradient(90deg, #0066cc 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
                 
-                {/* Handshake Scanning Effect */}
                 {isActive && !isLoaded && (
                   <motion.div 
                     initial={{ top: '-10%' }}
@@ -222,7 +212,7 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
                         whileHover={{ scale: 1.1 }}
                         className="w-16 h-16 md:w-24 md:h-24 mx-auto rounded-full border border-black/5 dark:border-white/5 flex items-center justify-center bg-white dark:bg-black shadow-xl group-hover/overlay:border-apple-blue/40 transition-all duration-500"
                        >
-                          <svg width="20" height="20" md:width="32" md:height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" className="text-gray-300 dark:text-zinc-700 group-hover/overlay:text-apple-blue transition-colors">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" className="md:w-8 md:h-8 text-gray-300 dark:text-zinc-700 group-hover/overlay:text-apple-blue transition-colors">
                             <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="currentColor" fillOpacity="0.05" />
                           </svg>
                        </motion.div>
@@ -246,7 +236,6 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
                       title={site.name}
                     />
                     
-                    {/* RESTORED: Live Streaming text indicator on top of iframe */}
                     {isLoaded && (
                       <motion.div 
                         initial={{ opacity: 0, x: 10 }}
@@ -260,19 +249,16 @@ const WebsiteCard: React.FC<{ site: typeof WEBSITES[0] }> = ({ site }) => {
                   </>
                 )}
                 
-                {/* Watermark badge */}
                 <div className="absolute bottom-4 right-4 z-30 pointer-events-none">
                    <div className="px-2 py-1 rounded bg-black/10 dark:bg-white/5 backdrop-blur-sm text-gray-400 dark:text-zinc-500 text-[6px] md:text-[7px] font-black uppercase tracking-[0.2em] border border-black/5 dark:border-white/5">
                       {metadata.class}
                    </div>
                 </div>
 
-                {/* Physical Polish */}
                 <div className="absolute inset-0 pointer-events-none bg-gradient-to-tr from-transparent via-white/[0.02] to-white/[0.08] opacity-50 z-40" />
               </div>
             </div>
             
-            {/* Viewport Label (Bottom) */}
             <div className="mt-4 md:mt-6 flex justify-center">
               <span className="text-[7px] md:text-[9px] font-black uppercase tracking-[0.5em] text-gray-400 opacity-30">
                 Resolution: {viewport.toUpperCase()} • {viewport === 'mobile' ? 'Mobile High-Res' : 'Desktop Ultra'}
