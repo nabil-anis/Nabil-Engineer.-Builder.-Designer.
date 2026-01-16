@@ -104,6 +104,20 @@ export const ACHIEVEMENTS: Achievement[] = [
 
 export const WEBSITES: Website[] = [
   {
+    id: 'job-g',
+    name: 'JobG',
+    description: 'A precision proposal engine built to solve the exhaustion of manual bidding. It features locked system instructions and a trained example library for consistent, high-leverage proposal generation.',
+    url: 'https://job-g.vercel.app/',
+    techStack: ['AI', 'Automation', 'Productivity', 'Next.js']
+  },
+  {
+    id: 'content-engine',
+    name: 'Content Engine',
+    description: 'An automated SEO-driven content generator for corporates and business owners. It abstracts the complexity of keyword research and copywriting, transforming simple business inputs into high-ranking blog infrastructure for automation.',
+    url: 'https://content-engine-by-nbl.vercel.app/',
+    techStack: ['AI', 'SEO', 'Automation', 'Content']
+  },
+  {
     id: 'taeed-ai',
     name: 'TAEED AI',
     description: 'AI-powered healthcare support system designed to improve medication safety, especially for elderly and low-literacy users in developing countries.',
