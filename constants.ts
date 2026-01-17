@@ -8,7 +8,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '26 DECEMBER 2025',
     category: 'ENTREPRENEURSHIP',
     images: [
-      'uni22.jpg',
+      '/uni22.jpg',
       'https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2340&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1504868584819-f8e90526354c?q=80&w=2340&auto=format&fit=crop'
     ],
