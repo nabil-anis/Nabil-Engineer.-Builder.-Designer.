@@ -11,7 +11,7 @@ export const ACHIEVEMENTS: Achievement[] = [
       '/uni33.jpg',
       '/uni22.jpg',
       '/un11.jpg',
-      '/unifoooolio.jpg'
+      '/unifoooolio.jpeg'
     ],
     video: 'https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1582-large.mp4'
   },
