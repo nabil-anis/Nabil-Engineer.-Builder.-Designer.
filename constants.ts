@@ -7,7 +7,12 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Final Entrepreneurship project poster presentation. A systemic subversion of academic identity—replacing decorative transcripts with a verifiable, AI-analyzed project portfolio system.',
     date: '26 DECEMBER 2025',
     category: 'ENTREPRENEURSHIP',
-    image: '/trace r&n.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1504868584819-f8e90526354c?q=80&w=2340&auto=format&fit=crop'
+    ],
+    video: 'https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1582-large.mp4'
   },
   {
     id: 'trace-project',
@@ -15,7 +20,12 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Development and presentation at Teknofest Pakistan. Bringing physical form to digital logic with real-time telemetry and a robust hardware-software handshake.',
     date: '23 DECEMBER 2025',
     category: 'HARDWARE',
-    image: '/trace.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=2340&auto=format&fit=crop'
+    ],
+    video: 'https://assets.mixkit.co/videos/preview/mixkit-close-up-of-electronic-circuit-board-4451-large.mp4'
   },
   {
     id: 'jsmu-2025',
@@ -23,7 +33,11 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Secured 2nd Position province-wide at the JSMU Annual Education & Research Symposium. A study in empathy-driven research and systemic advocacy.',
     date: '17–18 DECEMBER 2025',
     category: 'RESEARCH',
-    image: '/jsmu.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1532187863486-abf9d39d6618?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'mit-2025',
@@ -31,7 +45,11 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Received a formal invitation to participate in MIT’s 2025 hackathon. Participation deferred—a scheduling conflict between two versions of the future.',
     date: '14–15 NOVEMBER 2025',
     category: 'RECOGNITION',
-    image: '/mit.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2340&auto=format&fit=crop'
+    ],
+    video: 'https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-elements-loop-video-31627-large.mp4'
   },
   {
     id: 'cloudflare-2025',
@@ -39,7 +57,11 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Navigating global infrastructure constraints. A high-stakes environment where edge computing meets deliberate execution.',
     date: '25 OCTOBER 2025',
     category: 'INFRASTRUCTURE',
-    image: '/cloudflare.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2344&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'saylani-hack-2025',
@@ -47,7 +69,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'A test of endurance and flow. 12 hours of continuous development. Coffee is a system; code is the output.',
     date: '18–19 OCTOBER 2025',
     category: 'ENDURANCE',
-    image: '/saylani-hack.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'ieee-day-2025',
@@ -55,7 +80,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Event Host, Treasure Hunt Winner, and 3rd Place in the Interdepartmental Quiz. Efficiency in multiple modalities.',
     date: '16 OCTOBER 2025',
     category: 'LEADERSHIP',
-    image: '/ieee.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'nasa-2025',
@@ -63,7 +91,11 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Applying cosmic-scale data to terrestrial challenges. Engineering solutions with a planetary perspective.',
     date: '4–5 OCTOBER 2025',
     category: 'ENGINEERING',
-    image: '/nasa.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2344&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=2340&auto=format&fit=crop'
+    ],
+    video: 'https://assets.mixkit.co/videos/preview/mixkit-rotating-planet-earth-loop-11002-large.mp4'
   },
   {
     id: 'saylani-top',
@@ -71,7 +103,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Completed advanced coursework as Class Topper. Awarded certification by Arif Habib. Rigour is not an option; it is the default.',
     date: 'OCTOBER 2025',
     category: 'DISCIPLINE',
-    image: '/saylani-top.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1523240715639-99f84d3af106?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'devfest-2025',
@@ -79,7 +114,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Runner-Up in the GDG Kolachi AI competition. Refining models to meet the demands of human curiosity.',
     date: 'OCTOBER 2025',
     category: 'INTELLIGENCE',
-    image: '/devfest.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'filmfest-2025',
@@ -87,7 +125,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: '1st Position in Advertisement Competition. Proving that persuasion is just another interface to be designed.',
     date: 'OCTOBER 2025',
     category: 'CREATIVE',
-    image: '/filmfest.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2342&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'acm-innovate',
@@ -95,7 +136,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Master of Ceremony. Steering the narrative of technical innovation with a poet’s restraint.',
     date: '13 SEPTEMBER 2025',
     category: 'PERFORMANCE',
-    image: '/acm.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'icca-2025',
@@ -103,7 +147,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'The first student to host a virtual technical session at ICCA. Breaking barriers with minimal fuss.',
     date: '15 MAY 2025',
     category: 'LEADERSHIP',
-    image: '/icca.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'shu-chatbot',
@@ -111,7 +158,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Developing the central AI Chatbot for Salim Habib University. Integrating intelligence into the foundation of campus life.',
     date: '2 JANUARY 2025',
     category: 'INTELLIGENCE',
-    image: '/shu-chatbot.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'mun-2024',
@@ -119,7 +169,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Honorary Mention. A diplomatic detour into systemic negotiation and the art of the compromise.',
     date: '12 OCTOBER 2024',
     category: 'DIPLOMACY',
-    image: '/mun.jpg'
+    images: [
+      'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2340&auto=format&fit=crop'
+    ]
   }
 ];
 

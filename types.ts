@@ -1,11 +1,11 @@
-
 export interface Achievement {
   id: string;
   title: string;
   description: string;
   date: string;
   category: string;
-  image?: string;
+  images?: string[];
+  video?: string;
 }
 
 export interface Website {
