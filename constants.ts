@@ -22,7 +22,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '23 DECEMBER 2025',
     category: 'HARDWARE',
     images: [
-      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2340&auto=format&fit=crop',
+      'public/trace r&n.jpg',
       'https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2340&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=2340&auto=format&fit=crop'
     ],
