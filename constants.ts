@@ -95,7 +95,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: 'Master of Ceremony. Steering the narrative of technical innovation with a poet’s restraint.',
     date: '13 SEPTEMBER 2025',
     category: 'PERFORMANCE',
-    image: 'acm.jpg'
+    image: 'IMG-20250919-WA0026.jpg'
   },
   {
     id: 'icca-2025',
