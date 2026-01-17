@@ -41,6 +41,18 @@ export const ACHIEVEMENTS: Achievement[] = [
     video: 'https://assets.mixkit.co/videos/preview/mixkit-doctor-checking-a-patients-lungs-with-a-stethoscope-40502-large.mp4'
   },
   {
+    id: 'filmfest-2025',
+    title: 'University FilmFest: Greeno',
+    description: '1st Position in Advertisement Competition. Proving that persuasion is just another interface to be designed.',
+    date: '3 DECEMBER 2025',
+    category: 'CREATIVE',
+    images: [
+      'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2342&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=2340&auto=format&fit=crop'
+    ]
+  },
+  {
     id: 'mit-2025',
     title: 'MIT Energy & Climate Hack',
     description: 'Received a formal invitation to participate in MIT’s 2025 hackathon. Participation deferred—a scheduling conflict between two versions of the future.',
@@ -128,18 +140,6 @@ export const ACHIEVEMENTS: Achievement[] = [
       'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?q=80&w=2340&auto=format&fit=crop'
     ],
     video: 'https://assets.mixkit.co/videos/preview/mixkit-artificial-intelligence-interface-concept-31628-large.mp4'
-  },
-  {
-    id: 'filmfest-2025',
-    title: 'University FilmFest: Greeno',
-    description: '1st Position in Advertisement Competition. Proving that persuasion is just another interface to be designed.',
-    date: 'OCTOBER 2025',
-    category: 'CREATIVE',
-    images: [
-      'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2342&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=2340&auto=format&fit=crop'
-    ]
   },
   {
     id: 'acm-innovate',

@@ -88,18 +88,20 @@ const App: React.FC = () => {
             </p>
           </div>
 
+          {/* Centered Footer Links */}
           <div className="flex flex-wrap justify-center gap-x-12 gap-y-10 text-[10px] md:text-[11px] font-black uppercase tracking-[0.3em] text-gray-400 mb-20">
-            <div className="space-y-4 min-w-[120px]">
-              <p className="text-black dark:text-white border-b border-black/[0.05] dark:border-white/[0.05] pb-2 px-2">Contact</p>
-              <div className="flex flex-col space-y-3">
+            <div className="flex flex-col items-center space-y-4 min-w-[140px]">
+              <p className="text-black dark:text-white border-b border-black/[0.05] dark:border-white/[0.05] pb-2 px-6 w-full text-center">Contact</p>
+              <div className="flex flex-col items-center space-y-3">
                 <a href="mailto:nabilanis1920@gmail.com" className="hover:text-apple-blue transition-colors text-zinc-500 dark:text-zinc-400">Email</a>
+                <a href="https://www.linkedin.com/in/nabil-anis" target="_blank" rel="noopener noreferrer" className="hover:text-apple-blue transition-colors text-zinc-500 dark:text-zinc-400">LinkedIn</a>
               </div>
             </div>
-            <div className="space-y-4 min-w-[120px]">
-              <p className="text-black dark:text-white border-b border-black/[0.05] dark:border-white/[0.05] pb-2 px-2">Social</p>
-              <div className="flex flex-col space-y-3">
+            <div className="flex flex-col items-center space-y-4 min-w-[140px]">
+              <p className="text-black dark:text-white border-b border-black/[0.05] dark:border-white/[0.05] pb-2 px-6 w-full text-center">Social</p>
+              <div className="flex flex-col items-center space-y-3">
                 <a href="https://github.com/nabil-anis" target="_blank" rel="noopener noreferrer" className="hover:text-apple-blue transition-colors text-zinc-500 dark:text-zinc-400">GitHub</a>
-                <a href="https://www.linkedin.com/in/nabil-anis" target="_blank" rel="noopener noreferrer" className="hover:text-apple-blue transition-colors text-zinc-500 dark:text-zinc-400">LinkedIn</a>
+                <a href="https://www.instagram.com/its_nabil_anis/" target="_blank" rel="noopener noreferrer" className="hover:text-apple-blue transition-colors text-zinc-500 dark:text-zinc-400">Instagram</a>
               </div>
             </div>
           </div>
