@@ -67,7 +67,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '25 OCTOBER 2025',
     category: 'INFRASTRUCTURE',
     images: [
-      '/coudfare.jpg',
+      '/couldfare.jpg',
     ]
   },
   {
@@ -77,7 +77,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: 'OCTOBER 2025',
     category: 'DISCIPLINE',
     images: [
-      '/certificate.pdf',
+      '/certificatee.jpg',
       '/saylani.jpg'
     ]
   },
@@ -88,9 +88,9 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '16 OCTOBER 2025',
     category: 'LEADERSHIP',
     images: [
-      'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1540575861501-7ad060e29ad3?q=80&w=2340&auto=format&fit=crop'
+      '/ieee.jpg',
+      '/ieee2.jpg',
+      '/ieee3.jpg'
     ]
   },
   {
