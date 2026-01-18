@@ -33,10 +33,11 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '17–18 DECEMBER 2025',
     category: 'RESEARCH',
     images: [
-      'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1532187863486-abf9d39d6618?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2340&auto=format&fit=crop'
-    ]
+      '/t2.jpg',
+      '/ta1.jpg',
+      '/t3.jpg',
+    ],
+    video: 't5.mp4'
   },
   {
     id: 'filmfest-2025',
