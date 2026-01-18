@@ -138,10 +138,9 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '13 SEPTEMBER 2025',
     category: 'PERFORMANCE',
     images: [
-      'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2340&auto=format&fit=crop'
-    ]
+      '/ac.jpg'
+    ],
+    video: 
   },
   {
     id: 'icca-2025',
