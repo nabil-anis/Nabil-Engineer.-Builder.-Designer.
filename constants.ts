@@ -88,6 +88,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '16 OCTOBER 2025',
     category: 'LEADERSHIP',
     images: [
+      '/ieee0.jpg',
       '/ieee.jpg',
       '/ieee2.jpg',
       '/ieee3.jpg'
@@ -100,9 +101,8 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '4–5 OCTOBER 2025',
     category: 'ENGINEERING',
     images: [
-      'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2344&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2344&auto=format&fit=crop'
+      '/nsacert.png',
+      '/nSa.jpg',
     ],
     video: 'https://assets.mixkit.co/videos/preview/mixkit-rotating-planet-earth-loop-11002-large.mp4'
   },
