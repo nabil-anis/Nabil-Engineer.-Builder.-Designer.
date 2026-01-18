@@ -149,11 +149,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '15 MAY 2025',
     category: 'LEADERSHIP',
     images: [
-      'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1540575861501-7ad060e29ad3?q=80&w=2340&auto=format&fit=crop'
+      '/iccAA.jpg',
+      '/icca2.jpg'
     ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-business-man-using-a-laptop-4560-large.mp4'
+    video: 'icca3.mp4'
   },
   {
     id: 'shu-chatbot',
