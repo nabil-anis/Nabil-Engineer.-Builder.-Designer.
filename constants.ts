@@ -77,9 +77,8 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: 'OCTOBER 2025',
     category: 'DISCIPLINE',
     images: [
-      'https://images.unsplash.com/photo-1523240715639-99f84d3af106?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2340&auto=format&fit=crop'
+      '/certificate.pdf',
+      '/saylani.jpg'
     ]
   },
   {
