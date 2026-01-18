@@ -161,11 +161,9 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '2 JANUARY 2025',
     category: 'INTELLIGENCE',
     images: [
-      'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2340&auto=format&fit=crop'
-    ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-robot-hand-pointing-at-something-31623-large.mp4'
+      '/askshu0.jpg',
+      '/askshu1.jpg'
+    ]
   },
   {
     id: 'mun-2024',
