@@ -5,8 +5,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     {
     id: 'unifolio-poster',
     title: 'Unifolio: The Analytical Handshake',
-    description: 'Final Entrepreneurship project poster presentation. A systemic subversion of academic identity—replacing decorative transcripts with a verifiable, AI-analyzed project portfolio system.
-this is the current description',
+    description: 'Final Entrepreneurship project poster presentation. A systemic subversion of academic identity—replacing decorative transcripts with a verifiable, AI-analyzed project portfolio system.',
     date: '26 DECEMBER 2025',
     category: 'ENTREPRENEURSHIP',
     images: [
