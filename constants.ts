@@ -103,8 +103,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     images: [
       '/nsacert.png',
       '/nSa.jpg',
-    ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-rotating-planet-earth-loop-11002-large.mp4'
+    ]
   },
   {
     id: 'saylani-hack-2025',
