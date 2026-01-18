@@ -67,11 +67,8 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '25 OCTOBER 2025',
     category: 'INFRASTRUCTURE',
     images: [
-      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2344&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2340&auto=format&fit=crop'
-    ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-digital-binary-code-background-31624-large.mp4'
+      '/cloudfare.jpg',
+    ]
   },
   {
     id: 'saylani-hack-2025',
