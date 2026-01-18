@@ -24,7 +24,7 @@ export const ACHIEVEMENTS: Achievement[] = [
       'trace r&n.jpg',
       'trace2.jpg'
     ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-close-up-of-electronic-circuit-board-4451-large.mp4'
+    video: '/ttt.mp4'
   },
   {
     id: 'jsmu-2025',
