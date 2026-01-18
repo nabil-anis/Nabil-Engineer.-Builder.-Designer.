@@ -71,17 +71,16 @@ export const ACHIEVEMENTS: Achievement[] = [
     ]
   },
   {
-    id: 'saylani-hack-2025',
-    title: 'Saylani 12-Hour Overnight',
-    description: 'A test of endurance and flow. 12 hours of continuous development. Coffee is a system; code is the output.',
-    date: '18–19 OCTOBER 2025',
-    category: 'ENDURANCE',
+    id: 'saylani-top',
+    title: 'Saylani Discipline Excellence',
+    description: 'Completed advanced coursework as Class Topper. Awarded certification by Arif Habib. Rigour is not an option; it is the default.',
+    date: 'OCTOBER 2025',
+    category: 'DISCIPLINE',
     images: [
-      'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2340&auto=format&fit=crop'
-    ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-typing-on-a-computer-keyboard-4562-large.mp4'
+      'https://images.unsplash.com/photo-1523240715639-99f84d3af106?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2340&auto=format&fit=crop'
+    ]
   },
   {
     id: 'ieee-day-2025',
@@ -109,16 +108,17 @@ export const ACHIEVEMENTS: Achievement[] = [
     video: 'https://assets.mixkit.co/videos/preview/mixkit-rotating-planet-earth-loop-11002-large.mp4'
   },
   {
-    id: 'saylani-top',
-    title: 'Saylani Discipline Excellence',
-    description: 'Completed advanced coursework as Class Topper. Awarded certification by Arif Habib. Rigour is not an option; it is the default.',
-    date: 'OCTOBER 2025',
-    category: 'DISCIPLINE',
+    id: 'saylani-hack-2025',
+    title: 'Saylani 12-Hour Overnight',
+    description: 'A test of endurance and flow. 12 hours of continuous development. Coffee is a system; code is the output.',
+    date: '18–19 OCTOBER 2025',
+    category: 'ENDURANCE',
     images: [
-      'https://images.unsplash.com/photo-1523240715639-99f84d3af106?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2340&auto=format&fit=crop'
-    ]
+      'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2340&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2340&auto=format&fit=crop'
+    ],
+    video: 'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-typing-on-a-computer-keyboard-4562-large.mp4'
   },
   {
     id: 'devfest-2025',
@@ -127,11 +127,10 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: 'OCTOBER 2025',
     category: 'INTELLIGENCE',
     images: [
-      'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?q=80&w=2340&auto=format&fit=crop'
-    ],
-    video: 'https://assets.mixkit.co/videos/preview/mixkit-artificial-intelligence-interface-concept-31628-large.mp4'
+      '/devfest.jpg',
+      '/devff.jpg',
+      '/DEVFEST.jpg'
+    ]
   },
   {
     id: 'acm-innovate',
