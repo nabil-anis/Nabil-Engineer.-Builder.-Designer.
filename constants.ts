@@ -4,7 +4,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
      id: 'unifolio-poster',
     title: 'Unifolio: The Analytical Handshake',
-    description: 'Final Entrepreneurship Project Poster Presentation''Final Entrepreneurship Project Poster Presentation',
+    description: ' Entrepreneurship Course Final Project Poster Presentation',
     date: '26 DECEMBER 2025',
     category: 'ENTREPRENEURSHIP',
     images: [
