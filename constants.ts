@@ -67,7 +67,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '25 OCTOBER 2025',
     category: 'INFRASTRUCTURE',
     images: [
-      '/cloudfare.jpg',
+      '/coudfare.jpg',
     ]
   },
   {
@@ -129,7 +129,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     images: [
       '/devfest.jpg',
       '/devff.jpg',
-      '/DEVFEST.jpg'
+      '/DEV.jpg'
     ]
   },
   {
