@@ -46,9 +46,8 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '3 DECEMBER 2025',
     category: 'CREATIVE',
     images: [
-      'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2342&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2340&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=2340&auto=format&fit=crop'
+      '/greeno1.jpg',
+      '/greeno2.jpg',
     ]
   },
   {
