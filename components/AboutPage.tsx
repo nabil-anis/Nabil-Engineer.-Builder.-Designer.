@@ -27,7 +27,7 @@ export const AboutPage: React.FC = () => {
             <span className="text-gray-300 dark:text-zinc-800 italic">Human.</span>
           </h1>
           <p className="text-xl md:text-3xl font-medium text-gray-500 dark:text-gray-400 max-w-2xl leading-tight text-balance">
-            I was born at a very young age. Since then, I’ve spent most of my time convincing computers that I am their master, while they quietly prove otherwise. A builder, not a spectator. A mind wired for systems, flows, and elegant shortcuts.
+            I was born at a very young age. Since then, I’ve spent most of my time convincing computers that I am superior, while they quietly prove otherwise. A builder, not a spectator. A mind wired for systems, flows, and elegant shortcuts.
           </p>
         </motion.div>
 
