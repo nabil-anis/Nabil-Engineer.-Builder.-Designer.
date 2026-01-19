@@ -84,7 +84,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 'ieee-day-2025',
     title: 'IEEE Day: Triple Threat',
-    description: 'Event Host, Treasure Hunt Winner, and 3rd Place in the Interdepartmental Quiz. Efficiency in multiple modalities.',
+    description: 'Hosted the event, then—without prior intent—joined a Treasure Hunt moments after stepping off stage and secured first place by decoding the riddles in record time. The day concluded with a third-place finish in the Interdepartmental Quiz. A sequence that moved from moderation to improvisation to competition, all within a single afternoon.',
     date: '16 OCTOBER 2025',
     category: 'LEADERSHIP',
     images: [
@@ -104,17 +104,6 @@ export const ACHIEVEMENTS: Achievement[] = [
       '/nsacert.png',
       '/nSa.jpg',
     ]
-  },
-  {
-    id: 'saylani-hack-2025',
-    title: 'Saylani 12-Hour Overnight',
-    description: 'A test of endurance and flow. 12 hours of continuous development. Coffee is a system; code is the output.',
-    date: '18–19 OCTOBER 2025',
-    category: 'ENDURANCE',
-    images: [
-      '/cert.png'
-    ],
-    video: '/hack.mp4'
   },
   {
     id: 'devfest-2025',
@@ -140,9 +129,20 @@ export const ACHIEVEMENTS: Achievement[] = [
     video: '/Signing Off - Made with Clipchamp.mp4'
   },
   {
+    id: 'saylani-hack-2025',
+    title: 'Saylani 12-Hour Overnight',
+    description: 'Saylani’s First AI Hackathon was a 12-hour sprint testing problem-solving under pressure. Though the task was individual, my friends and I teamed up to share knowledge, adapt strategies, and keep momentum through the rough patches. By the end, we had strengthened our technical skills, learned to pivot when plans failed, and proved that collaboration can turn even all-nighters into growth. Mentorship and focus made it a milestone worth remembering.',
+    date: '23-24 May 2025',
+    category: 'ENDURANCE',
+    images: [
+      '/cert.png'
+    ],
+    video: '/hack.mp4'
+  },
+  {
     id: 'icca-2025',
     title: 'ICCA Virtual Tech Session',
-    description: 'The first student to host a virtual technical session at ICCA. Breaking barriers with minimal fuss.',
+    description: 'THosting ICCA 2025 at Salim Habib University marked a milestone of firsts. As the first student to lead a virtual technical session, I navigated a hybrid setup with chairs on campus and presenters joining live from abroad. The experience sharpened my skills in coordination, technical facilitation, and real-time problem-solving, while establishing a verifiable record of leadership in large-scale academic events. Breaking barriers with minimal fuss.',
     date: '15 MAY 2025',
     category: 'LEADERSHIP',
     images: [
@@ -154,7 +154,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 'shu-chatbot',
     title: 'Salim Habib AI Infrastructure',
-    description: 'Developing the central AI Chatbot for Salim Habib University. Integrating intelligence into the foundation of campus life.',
+    description: 'I built an AI chatbot for Salim Habib University to help students navigate everything from admissions to scholarships. I designed it to anticipate user behavior, provide smooth responses, and make university information genuinely accessible. It was a hands-on lesson in conversation design, testing, and applied AI—but the VC turned it down, calling it “impractical.” Meanwhile, the university rolled out a chatbot that is basically the same thing I built… just slower.',
     date: '2 JANUARY 2025',
     category: 'INTELLIGENCE',
     images: [
