@@ -3,7 +3,7 @@ import { Achievement, Website } from './types';
 export const ACHIEVEMENTS: Achievement[] = [
   {
      id: 'unifolio-poster',
-    title: 'Unifolio: The Analytical Handshake',
+    title: 'Unifolio',
     description: 'Unifolio is a premium, analytics driven academic dashboard designed as a cross disciplinary counterpart to GitHub. It presents student work as a verifiable record of academic capability, shifting evaluation from reputation to demonstrable output. By grounding academic merit in projects rather than perception, Unifolio offers a clear and evidence based view of excellence that is measurable, inspectable, and comparable.',
     date: '26 DECEMBER 2025',
     category: 'ENTREPRENEURSHIP',
@@ -17,7 +17,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 'trace-project',
     title: 'T.R.A.C.E Hardware Project',
-    description: 'Development and presentation at Teknofest Pakistan. Bringing physical form to digital logic with real-time telemetry and a robust hardware-software handshake.',
+    description: 'T.R.A.C.E. is a multi-mode autonomous robotics project developed for the Computer Organization and Assembly Language course, translating low-level hardware and control concepts into a working system. The project was later showcased at TEKNOFEST Pakistan 2025, extending its evaluation beyond the classroom into a competitive, public setting. By grounding computer architecture principles in observable robotic behavior, T.R.A.C.E. presents technical capability as demonstrable output, offering an inspectable and comparable record of applied understanding rather than theoretical performance.',
     date: '23 DECEMBER 2025',
     category: 'HARDWARE',
     images: [
@@ -62,8 +62,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'cloudflare-2025',
-    title: 'Cloudflare International Hackathon',
-    description: 'Navigating global infrastructure constraints. A high-stakes environment where edge computing meets deliberate execution.',
+    title: 'Cloudflare Hackathon',
+    description: 'The Cloudflare Hackathon brought together teams from across Karachi for a series of technical sessions followed by an open-source hackathon. Within this environment, Study Buddy was developed as a practical response to real-world problem statements under time and collaboration constraints. The project reflects applied problem-solving in a competitive setting, where technical understanding is demonstrated through rapid implementation, open-source contribution, and functional outcomes rather than preparatory work alone.',
     date: '25 OCTOBER 2025',
     category: 'INFRASTRUCTURE',
     images: [
@@ -73,7 +73,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   {
     id: 'saylani-top',
     title: 'Saylani Discipline Excellence',
-    description: 'Completed advanced coursework as Class Topper. Awarded certification by Arif Habib. Rigour is not an option; it is the default.',
+    description: 'Completed advanced coursework as Class Topper. Awarded certification by Arif Habib. ',
     date: 'OCTOBER 2025',
     category: 'DISCIPLINE',
     images: [
