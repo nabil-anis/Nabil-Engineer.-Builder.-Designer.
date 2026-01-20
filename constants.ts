@@ -21,7 +21,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '23 DECEMBER 2025',
     category: 'HARDWARE',
     images: [
-      'trace-r&n.jpg',
+      'tracer&n.jpg',
       'trace2.jpg'
     ],
     video: '/ttt.mp4'
