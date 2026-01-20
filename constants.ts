@@ -149,7 +149,7 @@ export const ACHIEVEMENTS: Achievement[] = [
       '/iccAA.jpg',
       '/icca1.jpg'
     ],
-    video: 'public/SigningOff-MadewithClipchamp.mp4'
+    video: '/SigningOff-MadewithClipchamp.mp4'
   },
   {
     id: 'shu-chatbot',
