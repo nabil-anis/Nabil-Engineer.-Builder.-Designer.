@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange, isDar
             onClick={() => onPageChange(Page.Gallery)}
             className={`transition-all px-3 py-2 rounded-full ${currentPage === Page.Gallery ? 'text-apple-blue bg-black/[0.03] dark:bg-white/[0.05]' : 'text-gray-400 hover:text-black dark:hover:text-white'}`}
           >
-            Projects
+            Achievements
           </button>
           <button 
             onClick={() => onPageChange(Page.Websites)}
