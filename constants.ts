@@ -126,7 +126,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     images: [
       '/ac.jpg'
     ],
-    video: '/SigningOff-MadewithClipchamp.mp4'
+    video: '/acmend.mp4'
   },
   {
     id: 'saylani-hack-2025',
