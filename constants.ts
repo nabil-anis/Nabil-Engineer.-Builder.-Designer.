@@ -169,7 +169,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     date: '12 OCTOBER 2024',
     category: 'DIPLOMACY',
     images: [
-      'munnn.jpg'
+      'munnn.webp'
     ],
     video: 'mun2.mp4'
   }
